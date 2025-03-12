@@ -1,24 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horizon</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizon Movement</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Horizon</h1>
-        <p>A movement dedicated to unity, peace, and real connections.</p>
-    </header>
-    <main>
-        <section>
-            <h2>Our Mission</h2>
-            <p>Horizon is a movement that fosters unity without force, offering open and unconditional acceptance. We stand against toxicity and division, striving to bring people together through understanding and positive change.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Horizon. All rights reserved.</p>
-    </footer>
+
+---
+layout: default
+title: Horizon Movement
+---
+
+<!-- Navigation Bar -->
+<nav class="bg-white shadow-md py-4 px-6 sticky top-0 z-50">
+  <div class="flex justify-between items-center">
+    <a href="#" class="text-2xl font-bold text-indigo-600">Horizon</a>
+    <div class="space-x-4">
+      <a href="#about" class="text-gray-700 hover:text-indigo-600">About</a>
+      <a href="#blog" class="text-gray-700 hover:text-indigo-600">Blog</a>
+      <a href="#contact" class="text-gray-700 hover:text-indigo-600">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-16 px-4 text-center">
+  <h1 class="text-5xl font-bold mb-4">Horizon Movement</h1>
+  <p class="text-xl mb-6">Empowering Change Through Unity and Understanding</p>
+  <a href="#about" class="bg-white text-indigo-600 px-6 py-2 rounded-lg shadow-md hover:bg-indigo-100 transition">Learn More</a>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-16 px-4">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-4">About Horizon</h2>
+    <p class="text-lg text-gray-700">We believe in countering aggression with understanding and unity. Inspired by movements of peace and resilience, Horizon stands for change that respects humanity and fosters progress through non-violence and collective strength.</p>
+  </div>
+</section>
+
+<!-- Blog Section -->
+<section id="blog" class="bg-gray-100 py-16 px-4">
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-8">Latest Insights</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <article class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-transform">
+        <h3 class="text-xl font-semibold mb-2">The Strength in Non-Aggression</h3>
+        <p class="text-gray-600">Exploring the power of resilience and how standing firm with compassion can reshape our communities.</p>
+        <a href="#" class="text-indigo-600 hover:underline mt-2 inline-block">Read More →</a>
+      </article>
+      <article class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-transform">
+        <h3 class="text-xl font-semibold mb-2">Economics of Unity</h3>
+        <p class="text-gray-600">A look into historical economic models that promoted shared prosperity and how we can learn from them.</p>
+        <a href="#" class="text-indigo-600 hover:underline mt-2 inline-block">Read More →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-16 px-4">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-4">Get Involved</h2>
+    <p class="text-lg text-gray-700 mb-6">Reach out to join the movement or share your ideas.</p>
+    <a href="mailto:contact@horizonmovement.org" class="bg-indigo-600 text-white px-6 py-2 rounded-lg shadow-md hover:bg-indigo-500 transition">Contact Us</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-indigo-600 text-white py-6">
+  <div class="max-w-4xl mx-auto text-center">
+    <p>&copy; 2025 Horizon Movement. All rights reserved.</p>
+  </div>
+</footer>
+
 </body>
 </html>
